@@ -1,0 +1,1 @@
+Bu, tüm menü opsiyonlarıyla Simurg Board çekirdeğidir.
