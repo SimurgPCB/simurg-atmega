@@ -1,0 +1,5 @@
+
+name=Simurg Board
+version=1.0.0
+
+compiler.cpp.extra_flags=-DF_CPU={build.f_cpu} -DVCC={build.vcc} -DDEBUG_LEVEL={build.debug} -DOPT_LEVEL={build.optimize}

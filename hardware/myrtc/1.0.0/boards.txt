@@ -1,0 +1,56 @@
+
+##############################################################
+simurg328.name=Simurg_Ver_328
+
+simurg328.upload.protocol=arduino
+simurg328.upload.speed=115200
+simurg328.bootloader.tool=avrdude
+simurg328.bootloader.low_fuses=0xFF
+simurg328.bootloader.high_fuses=0xDA
+simurg328.bootloader.extended_fuses=0x05
+simurg328.build.mcu=atmega328
+simurg328.build.core=arduino
+simurg328.build.f_cpu={build.f_cpu}
+simurg328.build.vcc={build.vcc}
+simurg328.build.debug={build.debug}
+simurg328.build.optimize={build.optimize}
+
+##############################################################
+# Menu: CPU Frequency
+simurg328.menu.freq.16MHz=16 MHz (Default)
+simurg328.menu.freq.8MHz=8 MHz
+simurg328.menu.freq.1MHz=1 MHz
+simurg328.menu.freq.32KHz=32.768 KHz (RTC)
+
+simurg328.build.f_cpu.16MHz=16000000L
+simurg328.build.f_cpu.8MHz=8000000L
+simurg328.build.f_cpu.1MHz=1000000L
+simurg328.build.f_cpu.32KHz=32768L
+
+##############################################################
+# Menu: Voltage
+simurg328.menu.vcc.5V=5V (Default)
+simurg328.menu.vcc.3V3=3.3V
+simurg328.menu.vcc.2V=2V
+
+simurg328.build.vcc.5V=5
+simurg328.build.vcc.3V3=3.3
+simurg328.build.vcc.2V=2
+
+##############################################################
+# Menu: Debug Level
+simurg328.menu.debug.none=None
+simurg328.menu.debug.basic=Basic
+simurg328.menu.debug.verbose=Verbose
+
+simurg328.build.debug.none=0
+simurg328.build.debug.basic=1
+simurg328.build.debug.verbose=2
+
+##############################################################
+# Menu: Optimize
+simurg328.menu.optimize.size=Size Optimize (-Os)
+simurg328.menu.optimize.speed=Speed Optimize (-O2)
+
+simurg328.build.optimize.size=Os
+simurg328.build.optimize.speed=O2
